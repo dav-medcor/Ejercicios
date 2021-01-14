@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--Este ejercicio consiste en crear un formulario con las siguientes características:
+- Dos inputs para nombre y email.
+- Un textarea para agregar comentarios.
+- Botón de Enviar centrado que al pasar el cursor por encima aparezca como un puntero y cambie de color.-->
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio 5</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <form action="Post" id="Formulario">
+            <label for="name">Nombre:</label>
+            <input type="text" name="name">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email">
+            <br>
+            <label for="Comments">Comentarios:</label>
+            <textarea name="Comments" cols="15" rows="2"></textarea> 
+            <br>
+            <div class="ContainerButton">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </body>
+</html>
