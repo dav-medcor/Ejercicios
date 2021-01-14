@@ -1,2 +1,25 @@
-/*Estilos a aplicar a la lista completa*/
+/*Para establecer el margen de 20px se ha eliminado el margen del body, se ha establecido el de la división 
+BarraLateral y se ha establecido un margen vertical a los párrafos p, eliminando su margen horizontal*/
+body {
+    margin: 0px;
+}
 
+.BarraLateral {
+    margin-left: 20px;
+}
+
+.BarraLateral p {
+    margin: 20px 0px;
+    background-color: lightblue;
+    height: 20px; width: 100px;
+    
+}
+
+/*La acción hover se ha aplicado al párrafo p en vez de al enlace a. Se marca en rojo el recuadro completo*/
+.BarraLateral p:hover {
+    background-color: red;
+}
+
+.BarraLateral a:visited {
+    color: green;
+}
