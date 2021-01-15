@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<!--En este ejercicio se debe replicar una imagen del cuaderno de trabajo. Para ello hay que realizar
+divisiones y darles estilo con flexbox-->
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 6</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Primera división azul, que lo engloba todo-->
+    <div id="Azul">
+        <!--Subdivisión verde. Engloba la imagen, la descripción del centro de salud y los botones-->
+        <div id="Verde">
+            <!--Subdivisión Rojo. Engloba la imagen-->
+            <div id="Rojo">
+                <img src="https://via.placeholder.com/100" alt="Foto de la Clínica">
+            </div>
+            <!--Subdivisión Amarilla. Engloba la descripción y los botones-->
+            <div id="Amarillo">
+                <!--Subdivisión Descripción. Engloba la descripción-->
+                <div id="Descripción">
+                    <p class="Descripción" id="CenSal">Centro de Salud</p>
+                    <p class="Descripción" id="MedGen">Medicina general</p>
+                </div>
+                <!--Subdivisión Botones. Engloba los botones-->
+                <div id="Botones">
+                    <button>Reservar cita</button>
+                    <button>Pedir presupuesto</button>
+                </div>
+            </div>
+        </div>
+
+        <!--Subdivisión rosa. Engloba los comentarios y la nota-->
+        <div id="Rosa">
+            <!--Subdivisión celeste. Engloba los comentarios-->
+            <div id="Celeste">
+                <p>10 comentarios</p>
+                <p>Ver comentarios</p>
+            </div>
+            <p>8.9</p>
+        </div>
+    </div>
+</body>
+</html>

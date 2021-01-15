@@ -1,0 +1,32 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+}
+
+.Descripción {
+    margin-top:5px; margin-bottom: 7px;
+}
+
+#CenSal {
+    font-size: 18px;
+}
+#MedGen {
+    font-size: 14px;
+}
+
+#Azul {
+    display: flex;
+    justify-content: space-between
+    
+}
+
+#Verde {
+    display: flex;
+    margin-left: 10px;
+}
+
+#Amarillo {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
