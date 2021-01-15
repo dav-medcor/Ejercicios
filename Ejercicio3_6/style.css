@@ -1,12 +1,29 @@
-body {
+/*Configuración general de la fuente en todo el cuerpo*/
+body { 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: gray;
+    width: 700px;
 }
 
-.Descripción {
+
+/*Configuración flexbox contenedor azul (toda la página)*/
+#Azul { 
+    display: flex;
+    justify-content: space-between    
+}
+
+
+/*Configuración flexbox contenedor verde (Imagen, descripción y botones)*/
+#Verde { 
+    display: flex;
+    margin-left: 10px;
+}
+
+
+/*Configuración de los párrafos de descripción*/
+.Descripción { 
     margin-top:5px; margin-bottom: 7px;
 }
-
 #CenSal {
     font-size: 18px;
 }
@@ -14,19 +31,63 @@ body {
     font-size: 14px;
 }
 
-#Azul {
-    display: flex;
-    justify-content: space-between
-    
-}
 
-#Verde {
-    display: flex;
-    margin-left: 10px;
-}
-
+/*Configuración del contenedor amarillo (descripción y botones). Se alejan un poco de la imagen y se disponen
+en flexbox como columnas*/
 #Amarillo {
     margin-left: 10px;
     display: flex;
     flex-direction: column;
+}
+
+
+/*Configuración de los botones: apariencia y comportamiento (:hover)*/
+button {
+    font-size: 14px;
+    padding: 10px 5px;
+    border-radius: 7.5px;
+}
+#Cita {
+    border: solid 2px gray; 
+    background-color: white;
+    color: black;
+}
+#Cita:hover {
+    cursor: pointer;
+    background-color:gray;
+    color: white;
+}
+#Presupuesto {
+    color: white;
+    background-color: gray;
+    border: none;
+}
+#Presupuesto:hover {
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: rgb(65, 63, 63);
+}
+
+
+/*Configuración flexbox y de fuente del contenedor rosa (comentarios y nota)*/
+#Rosa {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+
+/*Configuración de los comentarios*/
+#Celeste p {
+    margin: 2px;
+}
+
+
+/*Configuración de la nota*/
+#Nota {
+    margin-left: 10px; margin-right: 40px;
+    background-color: rgb(190, 190, 190);
+    color: black;
+    padding: 10px;
+    border-radius: 7.5px;
 }
